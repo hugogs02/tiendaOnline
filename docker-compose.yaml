@@ -1,0 +1,58 @@
+version: "3.8"
+
+services:
+  mongo_precios:
+    image: mongo:latest
+    container_name: mongo_precios
+    ports:
+      - 27017:27017
+  mongo_seed:
+    image: mongo:latest
+    links:
+      - mongo_precios
+    volumes:
+      - ./mongo-seed:/mongo-seed
+    command:
+      /mongo-seed/import.sh
+  productos:
+    image: gal.usc.grei.cn.productos/productos:latest
+    container_name: productos
+    build:
+      context: ./productos
+      args:
+        - APP_NAME=productos
+        - APP_VERSION=0.0.1
+    environment:
+      SPRING_PROFILES_ACTIVE: dev
+    expose:
+      - 8081
+    ports:
+      - 8081:8081
+  usuarios:
+    image: gal.usc.grei.cn.usuarios/usuarios:latest
+    container_name: usuarios
+    build:
+      context: ./usuarios
+      args:
+        - APP_NAME=usuarios
+        - APP_VERSION=0.0.1
+    environment:
+      SPRING_PROFILES_ACTIVE: dev
+    expose:
+      - 8082
+    ports:
+      - 8082:8082
+  carrito:
+    image: gal.usc.grei.cn.carrito/carrito:latest
+    container_name: carrito
+    build:
+      context: ./carrito
+      args:
+        - APP_NAME=carrito
+        - APP_VERSION=0.0.1
+    environment:
+      SPRING_PROFILES_ACTIVE: dev
+    expose:
+      - 8083
+    ports:
+      - 8083:8083

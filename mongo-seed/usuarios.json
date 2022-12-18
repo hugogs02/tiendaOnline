@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "639dde9bab797d305022e004"
+  },
+  "UserName": "abcd1",
+  "name": "Alex",
+  "ap1": "Baquero",
+  "ap2": "Dominguez",
+  "email": "alex.baquero@rai.usc.es",
+  "mobile": "618521849",
+  "password": "abcd1"
+},{
+  "_id": {
+    "$oid": "639dde9bab797d305022e005"
+  },
+  "UserName": "abcd2",
+  "name": "Hugo",
+  "ap1": "Gomez",
+  "ap2": "Sabucedo",
+  "email": "hugo.gomez.sabucedo@rai.usc.es",
+  "mobile": "632422312",
+  "password": "abcd2"
+},{
+  "_id": {
+    "$oid": "639dde9bab797d305022e006"
+  },
+  "UserName": "abcd3",
+  "name": "Ramon",
+  "ap1": "Cabanillas",
+  "ap2": "Otero",
+  "email": "ramon.cabanillas@rai.usc.es",
+  "mobile": "644213212",
+  "password": "abcd3"
+},{
+  "_id": "1112dc59-f8e6-425f-8fe0-b4b488a76492",
+  "name": "Antonio",
+  "ap1": "Perez",
+  "ap2": "Perez",
+  "email": "app@gmail.com",
+  "mobile": 654852631,
+  "password": "adhsa",
+  "_class": "gal.usc.grei.cn.usuarios.User.User"
+}]

@@ -1,0 +1,9 @@
+[{
+  "_id": "7f4f89b2-3ebe-4a68-bce2-f3717712f67c",
+  "listaArticulos": {
+    "639dde92ab797d305022dffe": 3
+  },
+  "idUsuario": "639dde9bab797d305022e004",
+  "finalizada": true,
+  "_class": "gal.usc.grei.cn.carrito.DataType.Carrito"
+}]

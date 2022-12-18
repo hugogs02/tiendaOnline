@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "639dde92ab797d305022dffe"
+  },
+  "name": "Camisa blanca",
+  "price": 15.649999618530273,
+  "quantity": 9,
+  "_class": "gal.usc.grei.cn.productos.Product.Product"
+},{
+  "_id": {
+    "$oid": "639dde92ab797d305022dfff"
+  },
+  "IdProducto": "abce",
+  "name": "Abrigo de piel negro",
+  "price": "50.99",
+  "quantity": "1"
+},{
+  "_id": {
+    "$oid": "639dde92ab797d305022e000"
+  },
+  "IdProducto": "abcf",
+  "name": "Pantalon chino beggie",
+  "price": "25.75",
+  "quantity": "4"
+},{
+  "_id": {
+    "$oid": "639dde92ab797d305022e001"
+  },
+  "IdProducto": "abch",
+  "name": "Zapatos jordan 231",
+  "price": "400.99",
+  "quantity": "6"
+},{
+  "_id": {
+    "$oid": "639dde92ab797d305022e002"
+  },
+  "IdProducto": "abci",
+  "name": "Calcetines negros",
+  "price": "7.99",
+  "quantity": "4"
+},{
+  "_id": {
+    "$oid": "639dff92495a716e2557e9a4"
+  },
+  "name": "Sudadera gris",
+  "price": 19.889999389648438,
+  "quantity": 3,
+  "_class": "gal.usc.grei.cn.productos.Product.Product"
+}]
